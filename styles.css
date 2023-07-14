@@ -1,0 +1,154 @@
+#title{
+    color: white;
+    background-color: #ff4c68;
+}
+
+body{
+    font-family: "Montserrat","sans-serif";
+}
+
+h1{
+    font-family: "Montserrat","sans-serif";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family: "Montserrat";
+}
+
+/* Title Section */
+
+.download_btn{
+    margin: 5% 3% 8% 0%;
+}
+
+.title_img{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30%;
+    z-index: 0;
+}
+
+/* Feature Section */
+
+#features{
+    padding:7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+
+    z-index: 1;
+}
+
+.feature_head{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.feature_drp{
+    color:#8f8f8f ;
+}
+
+.feature_block{
+    padding:5%;
+}
+
+.feature_symb{
+    padding-bottom: 20px;
+    color:#ef8172;
+}
+
+.feature_symb:hover{
+    color:#ff4c68;
+}
+
+/* Carousel Section */
+
+.carousel-item{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+
+.testimonial_txt{
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 2.75rem;
+    font-weight:700;
+}
+
+.testimonial_img{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom: 3%;
+}
+
+.press_logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding:100px;
+}
+
+/* Improving responsiveness using Media Queries */
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title_img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*Call to action section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align:center;
+}
+
+.cta_butn{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.ft_icons{
+    padding: 50px 10px 20px 10px;
+}
